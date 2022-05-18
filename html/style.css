@@ -171,7 +171,6 @@ a {
   border: none;
 }
 
-/* Контейнер <div> - необходим для размещения выпадающего содержимого */
 .dropdown {
   position: absolute;
   display: inline-block;
@@ -180,7 +179,6 @@ a {
   filter: invert(100%);
 }
 
-/* Выпадающее содержимое (скрыто по умолчанию) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -191,7 +189,6 @@ a {
   z-index: 1;
 }
 
-/* Ссылки внутри выпадающего списка */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
