@@ -1,0 +1,238 @@
+body {
+	line-height: 1;
+	position: relative;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Monday Sans.ttf")
+ }
+
+.site-header {
+	min-width: 550px;
+	height: 250px;
+  margin-bottom: 150px;
+  padding-top: 30px;
+  background: #847462 center url("imgs/wtext.png");
+  background-size: cover;
+  color: #ffffff;
+}
+
+#header {
+	text-align: center;
+	padding-top: 65px;
+}
+
+.container {
+	text-align: center;
+	padding-top: 80px;
+}
+
+#nick {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: -10px;
+}
+
+#world {
+	text-align: center;
+	margin-top: -20px;
+}
+
+#contact {
+	font-size: 50px;
+	text-align: center;
+	font-family: monospace;
+}
+
+#telegram {
+	text-align: center;
+	margin-left: 400px;
+	margin-top: -20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+}
+
+#telegrampic {
+	text-align: center;
+	margin-top: -159px;
+	margin-left: 400px;
+	color: black;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#discord {
+	text-align: center;
+	margin-right: 400px;
+	margin-top: -20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+}
+
+#discordpic {
+	text-align: center;
+	margin-right: 400px;
+	color: black;
+}
+
+.site-header2 {
+	min-width: 550px;
+	height: 40px;
+	margin-top: 175px;
+ 	margin-bottom: 300px;
+  padding-top: 30px;
+  background: #847462 center url("imgs/black.png");
+  background-size: cover;
+  color: #ffffff;
+}
+
+#chmo {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	margin-top: -12px;
+}
+
+.round {
+  border-radius: 400px;
+}
+
+#round1 {
+	text-align: center;
+	margin-left: 325px;
+  vertical-align: 10px;
+}
+
+#round11 {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	margin-left: 325px;
+	font-size: 20px;
+}
+
+#round2 {
+	margin-right: 325px;
+	text-align: center;
+	margin-top: -188px;
+}
+
+#round22 {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	margin-right: 325px;
+	font-size: 20px;
+}
+
+.site-header3 {
+	min-width: 550px;
+	height: 200px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+ 	background: #847462 center url("imgs/black.png");
+ 	background-size: cover;
+ 	color: #ffffff;
+ }
+
+ #white {
+ 	color: white;
+ }
+
+ #div {
+ 	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+ 	font-size: 20px;
+ 	line-height: 0.2;
+ 	text-align: center;
+ 	padding-top: 100px;
+ }
+
+.animated {
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+
+.dropbtn {
+  background-color: rgba(28,28,28,0);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin-top: -600px;
+  margin-left: 10px;
+  filter: invert(100%);
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-family: 'Josefin Sans', sans-serif;
+  min-width: 133px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block; animation: myAnim 500ms ease 0s 1 reverse forwards;}
+
+.dropdown:hover .dropbtn {animation: boingInUp 1s ease 0s 1 normal forwards;}
+
+.dropdown-content a:hover {background-color: #888888; animation: myAnim1 250ms ease 0s 1 reverse forwards;}
+
+@keyframes myAnim1 {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes boingInUp {
+	0% {
+		filter: invert(0%); 
+	}
+
+	100% {
+		filter: invert(100%); 
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-150px);
+	}
+}
+
